@@ -104,6 +104,25 @@ a:hover{
 	margin-left: 710px;
 	text-decoration: inherit;
 }
+.qc{
+ width: 250px;
+  height: 80px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  text-align: center;
+	text-decoration-color: antiquewhite;
+}
+
+
+@keyframes example {
+  from {top: 0px; background-color: yellow;}
+  to {top: 200px; background-color: #8C1D20;}
+}
+	
 
 		
 
